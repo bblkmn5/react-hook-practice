@@ -1,5 +1,5 @@
 import React from 'react';
-import 'stateHook.js'
+import Effect from './components/effectHook';
 import './App.css';
 import UsingStateExample from './components/stateHook';
 
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
      <UsingStateExample />
+     <Effect />
     </div>
   );
 }
