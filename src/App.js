@@ -3,7 +3,7 @@ import Effect from './components/effectHook';
 import './App.css';
 import UsingStateExample from './components/stateHook';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
      <UsingStateExample />
